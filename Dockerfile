@@ -1,4 +1,4 @@
-FROM oraclelinux:7-sim
+FROM oraclelinux:7-slim
 
 ARG MYSQL_SERVER_PACKAGE=mysql-community-server-minimal-5.7.33
 ARG MYSQL_SHELL_PACKAGE=mysql-shell-8.0.22
